@@ -1,0 +1,554 @@
+html,
+body {
+    height: 100%;
+    min-width: 1180px;
+}
+
+.layout-guid {
+    height:100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+.layout-guid-bg .layout-main {
+    background-color: transparent;
+}
+.el-message-box__message p{
+  color:#333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.el-dialog .el-message-box__content, .el-message-box .el-message-box__content{
+  padding: 30px 32px 40px;
+}
+.com-header {
+    height: 60px;
+    background: #fff;
+    position: relative;
+    z-index: 22;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.com-user {
+    height: 29px;
+    line-height: 28px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.com-login {
+    color: #2e7cdc;
+    margin-right: 13px;
+    margin-left: 8px;
+}
+
+.com-login:hover {
+    text-decoration: underline;
+}
+
+.com-uc {
+    color: #666;
+}
+
+.com-uc:hover {
+    text-decoration: underline;
+    color: #2e7cdc;
+}
+
+.com-center span {
+    color: #666;
+}
+
+.w1180 {
+    max-width: 1180px;
+    margin: 0 auto;
+    min-width: 890px;
+}
+
+.com-header .w1180 {
+    height: 100%;
+}
+
+.com-header .logo {
+    height: 100%;
+    display: table;
+}
+
+.com-header .logo a {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.com-header-name {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #333333;
+    font-size: 24px;
+}
+
+
+/* 中间 */
+
+.layout-main {
+    padding-top: 70px;
+    background-color: #fff;
+}
+
+
+
+
+/*表单  */
+
+.form-input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    outline: none;
+    width: 140px;
+    vertical-align: middle;
+}
+
+.group {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.form-group button {
+    margin: 10px 5px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    height: 48px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+    height: 48px;
+    text-align: left;
+}
+
+.el-table th,
+.el-table__footer-wrapper thead div,
+.el-table__header-wrapper thead div {
+    background-color: #f2f2f2;
+}
+
+.el-table--border td,
+.el-table--border th {
+    border-right-color: #ddd;
+}
+
+.app-btn {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px 13px;
+    border: none;
+    min-width: 90px;
+    outline: none;
+    cursor: pointer;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #ddd;
+}
+.el-message-box__message{
+  margin-left:50px;
+}
+.el-form-item__label {
+    padding: 10px 10px 13px 0;
+}
+
+.el-input__inner {
+    height: 35px;
+    border-radius: 5px;
+}
+ .el-table th,
+ .el-table__footer-wrapper thead div,
+ .el-table__header-wrapper thead div
+ {background-color: #f6f6f6;}
+
+tbody tr td div{color:#666;}
+
+.app-btn-default,
+.el-button {
+    border: 1px solid #73797b;
+    background-color: #fff;
+    color: #242d31;
+    padding: 10px 18px;
+}
+
+.app-btn-default:hover,
+.el-button:focus,
+.el-button:hover {
+    color: #fff;
+    background-color: #404548;
+    border-color: #404548;
+}
+
+.app-btn-default:active,
+.app-btn-default.active,
+.el-button:active {
+    color: #fff;
+    border-color: #0a0f11;
+    background-color: #0a0f11;
+}
+
+.app-btn-primary,
+.el-button--primary:focus,
+.el-button--primary {
+    border-color: #f97b00;
+    background-color: #f97b00;
+    color: #fff;
+    height:35px;
+    border-radius: 5px;
+}
+
+.el-message-box__btns{
+  padding-bottom:15px;
+  overflow: hidden;
+  text-align: center;
+}
+.el-message-box .el-message-box__btns{
+  width: 200px;
+  margin: 0 30px;
+  float: right;
+  padding:0 0 20px;
+  text-align: right;
+}
+.el-message-box .el-message-box__btns .el-button:nth-child(1){
+  float: right;
+  height: 35px;
+  margin-left:20px;
+  width: 70px;
+  box-sizing: border-box;
+}
+.el-message-box .el-message-box__btns .el-button:nth-child(2){
+  float: right;
+
+  height: 35px;
+  width: 70px;
+  box-sizing: border-box;
+}
+.app-btn-primary:hover,
+.el-button--primary:hover {
+    background-color: #f8a33c;
+    border-color: #f8a33c;
+}
+
+.app-btn-primary:active,
+.app-btn-primary.active,
+.el-button--primary.is-active,
+.el-button--primary:active {
+    border-color: #ec6300;
+    background-color: #ec6300;
+    color: #fff;
+}
+
+.el-button--primary:active {
+    outline: none;
+}
+
+.app-btn-link,
+.el-button--text {
+    color: #fb4234;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.app-btn-link:hover,
+.el-button--text:hover,
+.el-button--text:focus {
+    background-color: transparent;
+    border: none;
+    color: #f5796f;
+}
+
+.app-btn-link:active,
+.el-button--text:active,
+.el-button--text.is-active {
+    background-color: transparent;
+    border: none;
+    color: #e42214;
+}
+
+.icon-more {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: url(../img/more.png) no-repeat center;
+}
+
+.selected .icon-more {
+    background: url(../img/more_unfold.png) no-repeat center;
+}
+
+.icon-close {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/close.png) no-repeat center;
+}
+
+.el-message-box {
+  width:357px;
+  height: 185px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.el-dialog {
+    border-radius: 15px;
+    width:430px;
+}
+.el-dialog .el-message-box__content{
+  padding:30px 32px;
+}
+
+.el-message-box .el-message-box__content {
+  padding: 30px 32px 40px;
+}
+/*add by ssy*/
+
+.el-dialog__header,
+.el-message-box__header {
+  background-color: #ff9000;
+  font-size:16px;
+  padding: 11px 31px 11px 30px;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  text-align: left;
+}
+
+.el-dialog__title,
+.el-message-box__title {
+    color: #fff;
+}
+.el-message-box__headerbtn{
+  position: absolute;
+  top: 14px;
+  right: 32px;
+}
+.el-dialog__headerbtn .el-dialog__close,
+.el-message-box__headerbtn .el-message-box__close {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.el-dialog__headerbtn:focus .el-dialog__close,
+.el-dialog__headerbtn:hover .el-dialog__close,
+.el-message-box__headerbtn:focus .el-message-box__close,
+.el-message-box__headerbtn:hover .el-message-box__close {
+    color: #fff;
+}
+
+.el-table .cell,
+.el-table th>div {
+    padding: 0 8px;
+}
+.money .el-table tr th>div,
+.moneyList .el-table tr th>div,
+.payment .el-table tr th>div {
+  text-align:center!important;
+}
+.payment .el-table .cell, .el-table th>div{
+  padding:0 15px;
+}
+.money .el-table-column--selection{
+  text-align:center;
+}
+.el-tabs__nav {
+    height: 42px;
+}
+
+.el-pager li {
+    margin: 0 4px;
+    border: 1px solid #ddd;
+}
+
+.el-pager li.active+li {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.el-pagination .btn-prev,
+.el-pagination .btn-next {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.el-pager li:hover {
+    color: #333;
+}
+
+.el-pager li.active {
+    border: 1px solid #ddd;
+    background-color: transparent;
+    color: #fd8125;
+}
+
+.el-pagination button:hover {
+    color: #fd8125;
+}
+
+.el-pagination button.disabled {
+    color: #e4e4e4;
+}
+
+.paging {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+    margin-top: -7px;
+}
+
+
+/*日期  */
+
+.el-date-table td.today {
+    color: #fcb253;
+}
+
+.el-date-table td.current:not(.disabled),
+.el-date-table td.end-date,
+.el-date-table td.start-date {
+    background-color: #fcb253!important;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+    background-color: #fcb253;
+}
+
+.el-date-table td.today:before {
+    border-top: .5em solid #fd8125;
+}
+
+.el-picker-panel__link-btn,
+.el-time-panel__btn.confirm {
+    color: #f9954b;
+}
+
+.el-input__inner:focus,
+.el-select .el-input__inner:focus {
+    border-color: #fd8125;
+}
+
+.el-select-dropdown__item.selected {
+    background-color: #fcb253;
+}
+
+.el-date-picker__header-label.active,
+.el-date-picker__header-label:hover,
+.el-picker-panel__icon-btn:hover {
+    color: #fd8125;
+}
+
+.el-month-table td.current:not(.disabled) .cell {
+    background-color: #fcb253!important;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+    background-color: #e4e8f1;
+}
+
+.el-select-dropdown__item.selected.hover {
+    background-color: #fcb253;
+}
+
+.el-pagination__sizes .el-input .el-input__inner:hover {
+    border-color: #fd8125;
+}
+
+.time-select-item.selected:not(.disabled) {
+    background-color: #fcb253;
+}
+
+.time-select-item.selected:not(.disabled):hover {
+    background-color: #fcb253;
+}
+
+.el-loading-spinner .path {
+    stroke: #fd8125;
+}
+
+.el-loading-spinner .el-loading-text {
+    color: #fd8125;
+}
+
+.el-tag--primary {
+    background-color: rgba(252, 178, 83, .2);
+    border-color: rgba(253, 129, 37, .2);
+    color: #f90;
+}
+
+.el-select .el-tag__close {
+    margin-top: 0;
+}
+
+.el-tag--primary .el-tag__close:hover {
+    background-color: #f90;
+}
+
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
+    color: #f90;
+}
+
+.el-checkbox__inner:hover,
+.el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #bfcbd9;
+}
+
+.el-checkbox__input.is-indeterminate .el-checkbox__inner,
+.el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: #fd8125;
+    border-color: #fd8125;
+}
+
+.el-loading-mask {
+    z-index: 1000;
+}
+
+.el-scrollbar__bar {
+    opacity: 1;
+}
+
+
+/*暂无数据*/
+div.el-table__empty-block{background: url(../../assets/img/Nodate.png) no-repeat center;}
+.el-table__empty-block{min-height:300px;}
+.el-table__empty-text{top:80%;}
+
+
+
+.topHeight{width:100%;height:32px;}
